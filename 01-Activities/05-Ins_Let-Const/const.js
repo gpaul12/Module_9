@@ -1,8 +1,8 @@
 // 1. const can be used for values which we will not reassign
 
-const age = 25;
+// const age = 25;
 
-age++; // TypeError: Assignment to constant variable.
+// age++; // TypeError: Assignment to constant variable.
 
 // ==========================================================================
 
@@ -18,8 +18,8 @@ age++; // TypeError: Assignment to constant variable.
 // const beatles = ["John", "Paul", "Ringo"];
 // beatles.push("George");
 
-// This works because by updating an array's contents, we aren't changing the reference to the underlying array
-// console.log(beatles); // Prints `["John", "Paul", "Ringo", "George"]`
+// // This works because by updating an array's contents, we aren't changing the reference to the underlying array
+// // console.log(beatles); // Prints `["John", "Paul", "Ringo", "George"]`
 
 // console.log(beatles);
 
@@ -34,15 +34,15 @@ age++; // TypeError: Assignment to constant variable.
 
 // 3. While we can MODIFY arrays and objects that are using `const`, we can't reassign them
 
-// const item = {
-//   id: 23,
-//   title: "Underwater Basket-Weaving DVD",
-//   price: "$17.99"
-// };
+const item = {
+  id: 23,
+  title: "Underwater Basket-Weaving DVD",
+  price: "$17.99",
+};
 
-// item.price = "$1.99";
+item.price = "$1.99";
 
-// console.log(item);
+console.log(item);
 
 // item = {
 //   id: 11,

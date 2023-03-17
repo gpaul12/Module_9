@@ -1,24 +1,24 @@
 // 1. When using var, our counter exists after a for-loop is done
 
 for (var i = 0; i < 5; i++) {
-  console.log(i);
+  console.log("loop:"+i);
 }
 
-console.log(i); // Prints 5
+console.log("after i:"+i); // Prints 5
 
 // When using let, our counter is not defined outside of the for-loop block
 
 let x = 42;
 
 for (let j = 0; j < 5; j++) {
-  console.log(j);
-  console.log(x);
+  console.log("loop j:"+j);
+  console.log("loop x:"+x);
 }
 
-console.log(j); // ReferenceError: j is not defined
+console.log("loop j:"+j); // ReferenceError: j is not defined
 
 let j = 42;
-console.log(j); // prints 42
+console.log("loop j:"+j); // prints 42
 
 // ==========================================================================
 
