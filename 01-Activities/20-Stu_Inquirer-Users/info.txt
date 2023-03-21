@@ -1,0 +1,1 @@
+{"name":"Gerry","stack":["HTML","CSS","Javascrpt","MySQL"],"contact":"email"}
