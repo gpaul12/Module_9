@@ -15,7 +15,7 @@ add(1); // => 1
 add(3, 3); // => 6
 add(1, 1, 4, 5); // => 11
 
-// 2. 
+// 2.
 function howManyArgs(...args) {
   return `You passed ${args.length} arguments.`; // point out the template literal
 }
